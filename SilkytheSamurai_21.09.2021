@@ -1,0 +1,125 @@
+calibre Debug log
+calibre 5.27  embedded-python: True is64bit: False
+Windows-10-10.0.19041 Windows ('32bit', 'WindowsPE')
+32bit process running on 64bit windows
+('Windows', '10', '10.0.19041')
+Python 3.8.5
+Windows: ('10', '10.0.19041', '', 'Multiprocessor Free')
+Interface language: None
+Successfully initialized third party plugins: Gather KFX-ZIP (from KFX Input) (1, 43, 0) && DeDRM (7, 2, 1) && Package KFX (from KFX Input) (1, 43, 0) && KFX metadata reader (from KFX Input) (1, 43, 0) && KFX Input (1, 43, 0)
+calibre 5.27  embedded-python: True is64bit: False
+Windows-10-10.0.19041 Windows ('32bit', 'WindowsPE')
+32bit process running on 64bit windows
+('Windows', '10', '10.0.19041')
+Python 3.8.5
+Windows: ('10', '10.0.19041', '', 'Multiprocessor Free')
+Interface language: None
+Successfully initialized third party plugins: Gather KFX-ZIP (from KFX Input) (1, 43, 0) && DeDRM (7, 2, 1) && Package KFX (from KFX Input) (1, 43, 0) && KFX metadata reader (from KFX Input) (1, 43, 0) && KFX Input (1, 43, 0)
+Turning on automatic hidpi scaling
+devicePixelRatio: 2.0
+logicalDpi: 96.0 x 96.0
+physicalDpi: 92.53889943074003 x 92.67567567567568
+Using calibre Qt style: True
+[0.00] Starting up...
+[0.00] Showing splash screen...
+[0.33] splash screen shown
+[0.33] Initializing db...
+[0.33] db initialized
+[0.33] Constructing main UI...
+[0.72] main UI initialized...
+[0.72] Hiding splash screen
+Starting QuickView
+Gather KFX-ZIP (from KFX Input) 1.43.0: Importing C:\Users\nelso\Documents\My Kindle Content\B000FCKPHG_EBOK\B000FCKPHG_EBOK.azw
+Gather KFX-ZIP (from KFX Input): Gathered 4 file(s) as C:\Users\nelso\AppData\Local\Temp\calibre_6_tlzliu\ysm9c2uf.kfx-zip
+DeDRM v7.2.1: Trying to decrypt ysm9c2uf.kfx-zip
+Using Library AlfCrypto DLL/DYLIB/SO
+Using Library AlfCrypto DLL/DYLIB/SO
+Decrypting KFX-ZIP ebook: ysm9c2uf
+Got DSN key from database default_key
+Found 1 keys to try after 0.1 seconds
+Decrypting KFX DRM voucher: amzn1.drm-voucher.v1.5dfb0687-8ea0-4a70-95c2-a6b42ebbfc80.voucher
+Traceback (most recent call last):
+  File "calibre_plugins.dedrm.kfxdedrm", line 83, in decrypt_voucher
+  File "C:\Users\nelso\AppData\Roaming\calibre\plugins\DeDRM.zip\ion.py", line 879, in decryptvoucher
+  File "C:\Users\nelso\AppData\Roaming\calibre\plugins\DeDRM.zip\ion.py", line 758, in pkcs7unpad
+  File "C:\Users\nelso\AppData\Roaming\calibre\plugins\DeDRM.zip\ion.py", line 98, in _assert
+Exception: Incorrect padding - Wrong key
+Traceback (most recent call last):
+  File "calibre_plugins.dedrm.kfxdedrm", line 83, in decrypt_voucher
+  File "C:\Users\nelso\AppData\Roaming\calibre\plugins\DeDRM.zip\ion.py", line 879, in decryptvoucher
+  File "C:\Users\nelso\AppData\Roaming\calibre\plugins\DeDRM.zip\ion.py", line 758, in pkcs7unpad
+  File "C:\Users\nelso\AppData\Roaming\calibre\plugins\DeDRM.zip\ion.py", line 98, in _assert
+Exception: Incorrect padding - Wrong key
+DeDRM v7.2.1: Failed to decrypt with error: Failed to decrypt KFX DRM voucher with any key
+DeDRM v7.2.1: Looking for new default Kindle Key after 0.1 seconds
+searching for kinfoFiles in C:\Users\nelso\AppData\Local
+Found K4PC 1.25+ kinf2018 file: C:\Users\nelso\AppData\Local\Amazon\Kindle\storage\.kinf2018
+[23.53] splash screen hidden
+[23.53] Started up in 23.53 seconds with 5 books
+stdout+stderr from file dialog helper: [b'', b'']
+piped data from file dialog helper: [b'\xc6\xdf\x1dk\xe8\xc2#\xcb\xc0-J\xc82\xbdJvs$\xa3\xfd\xae\x1cyG\xe6\x85\xa6\xcf\xb0s\xf2=', b'C:\\Users\\nelso\\Documents\\My Kindle Content\\B000FCKPHG_EBOK\\B000FCKPHG_EBOK.azw']
+Decrypted key file using IDString '1451664813' and UserName 'nelso'
+DeDRM v7.2.1: Found 1 new key
+Decrypting KFX-ZIP ebook: ysm9c2uf
+Got DSN key from database default_key_1
+Found 1 keys to try after 4.0 seconds
+Decrypting KFX DRM voucher: amzn1.drm-voucher.v1.5dfb0687-8ea0-4a70-95c2-a6b42ebbfc80.voucher
+Traceback (most recent call last):
+  File "calibre_plugins.dedrm.__init__", line 540, in KindleMobiDecrypt
+  File "calibre_plugins.dedrm.k4mobidedrm", line 238, in GetDecryptedBook
+  File "calibre_plugins.dedrm.kfxdedrm", line 45, in processBook
+  File "calibre_plugins.dedrm.kfxdedrm", line 89, in decrypt_voucher
+Exception: Failed to decrypt KFX DRM voucher with any key
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "calibre_plugins.dedrm.kfxdedrm", line 83, in decrypt_voucher
+  File "C:\Users\nelso\AppData\Roaming\calibre\plugins\DeDRM.zip\ion.py", line 879, in decryptvoucher
+  File "C:\Users\nelso\AppData\Roaming\calibre\plugins\DeDRM.zip\ion.py", line 758, in pkcs7unpad
+  File "C:\Users\nelso\AppData\Roaming\calibre\plugins\DeDRM.zip\ion.py", line 98, in _assert
+Exception: Incorrect padding - Wrong key
+Traceback (most recent call last):
+  File "calibre_plugins.dedrm.__init__", line 540, in KindleMobiDecrypt
+  File "calibre_plugins.dedrm.k4mobidedrm", line 238, in GetDecryptedBook
+  File "calibre_plugins.dedrm.kfxdedrm", line 45, in processBook
+  File "calibre_plugins.dedrm.kfxdedrm", line 89, in decrypt_voucher
+Exception: Failed to decrypt KFX DRM voucher with any key
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "calibre_plugins.dedrm.kfxdedrm", line 83, in decrypt_voucher
+  File "C:\Users\nelso\AppData\Roaming\calibre\plugins\DeDRM.zip\ion.py", line 879, in decryptvoucher
+  File "C:\Users\nelso\AppData\Roaming\calibre\plugins\DeDRM.zip\ion.py", line 758, in pkcs7unpad
+  File "C:\Users\nelso\AppData\Roaming\calibre\plugins\DeDRM.zip\ion.py", line 98, in _assert
+Exception: Incorrect padding - Wrong key
+DeDRM v7.2.1: Ultimately failed to decrypt after 4.0 seconds. Read the FAQs at Harper's repository: https://github.com/apprenticeharper/DeDRM_tools/blob/master/FAQs.md
+Package KFX (from KFX Input) 1.43.0: Packaging C:\Users\nelso\AppData\Local\Temp\calibre_6_tlzliu\ysm9c2uf.kfx-zip
+Processing container: B000FCKPHG_EBOK.azw
+KFX metadata reader (from KFX Input) activated for C:\Users\nelso\AppData\Local\Temp\calibre_6_tlzliu\vobfgjxi_add_books\0\B000FCKPHG_EBOK.kfx-zip
+Running file type plugin DeDRM failed with traceback:
+Traceback (most recent call last):
+  File "calibre_plugins.dedrm.__init__", line 540, in KindleMobiDecrypt
+  File "calibre_plugins.dedrm.k4mobidedrm", line 238, in GetDecryptedBook
+  File "calibre_plugins.dedrm.kfxdedrm", line 45, in processBook
+  File "calibre_plugins.dedrm.kfxdedrm", line 89, in decrypt_voucher
+Exception: Failed to decrypt KFX DRM voucher with any key
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "calibre\customize\ui.py", line 176, in _run_filetype_plugins
+  File "calibre_plugins.dedrm.__init__", line 633, in run
+  File "calibre_plugins.dedrm.__init__", line 583, in KindleMobiDecrypt
+calibre_plugins.dedrm.DeDRMError: DeDRM v7.2.1: Ultimately failed to decrypt after 4.0 seconds. Read the FAQs at Harper's repository: https://github.com/apprenticeharper/DeDRM_tools/blob/master/FAQs.md
+Running file type plugin Package KFX (from KFX Input) failed with traceback:
+Traceback (most recent call last):
+  File "calibre\customize\ui.py", line 176, in _run_filetype_plugins
+  File "calibre_plugins.kfx_input.package_filetype", line 21, in run
+  File "calibre_plugins.kfx_input.package_filetype", line 32, in run_kfx
+  File "calibre_plugins.kfx_input.kfxlib.yj_book", line 84, in convert_to_single_kfx
+  File "calibre_plugins.kfx_input.kfxlib.yj_book", line 211, in decode_book
+  File "calibre_plugins.kfx_input.kfxlib.yj_book", line 318, in get_container
+calibre_plugins.kfx_input.kfxlib.utilities.KFXDRMError: Book conAdded Mindset to db in: 0.1
+Added 1 books in 4.5 seconds
